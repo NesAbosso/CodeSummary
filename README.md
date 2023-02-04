@@ -37,7 +37,7 @@ I also added a nice theatre seat background and Broadway font for styling.
 
 For this story I was tasked with creating a Comment Model & CRUD Pages. Here I created a Comment model in the blog area and first defined the model with properties. 
 
- public class Comment
+    public class Comment
     {
         public int CommentId { get; set; }
         public string Author { get; set; }
@@ -48,11 +48,11 @@ For this story I was tasked with creating a Comment Model & CRUD Pages. Here I c
 
 Next, I created a database context class to manage the database connection.
 
-public DbSet<Comment> Comments { get; set; }
+    public DbSet<Comment> Comments { get; set; }
 
 To add the model to the database, you would run the following command in the Package Manager Console.
 
-# Update-Database
+## Update-Database
 
 I then scaffold the CRUD pages, by right-clicking on the Controllers folder, selecting Add > New Scaffolded Item, and selecting Razor Pages using Entity Framework. You would then select the Comment model and the required pages (Index, Edit, Create, Details, and Delete).
 After scaffolding, you would be able to access the CRUD pages for the Comment model and perform operations such as creating, editing, and deleting comments. The pages would use Entity Framework to interact with the database and display information about comments.
