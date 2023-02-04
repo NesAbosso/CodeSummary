@@ -19,9 +19,9 @@ Below are descriptions of the stories I worked on, along with code snippets.
 
 # Create and Style About Page
 
-For this story, I was assigned the task of designing the About page for the Vertigo Theatre web application. This about page is going to show the Mission Statement, Ensemble (including the images), Company History, and Board. I utilized Bootstrap cards for the display of images. 
+For this story, I was assigned the task of designing the About page for the Vertigo Theatre web application. This about page is to show the Mission Statement, Ensemble (including the images), Company History, and Board. I utilized Bootstrap cards for the display of images. 
 
-I also added a nice theatre seat background and Broadway font in CSS for styling.  
+I also added a nice theatre seat background and Broadway font for styling.  
       
             
     body {
