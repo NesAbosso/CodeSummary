@@ -54,8 +54,8 @@ To add the model to the database, you would run the following command in the Pac
 
 ## Update-Database
 
-I then scaffold the CRUD pages, by right-clicking on the Controllers folder, selecting Add > New Scaffolded Item, and selecting Razor Pages using Entity Framework. You would then select the Comment model and the required pages (Index, Edit, Create, Details, and Delete).
-After scaffolding, you would be able to access the CRUD pages for the Comment model and perform operations such as creating, editing, and deleting comments. The pages would use Entity Framework to interact with the database and display information about comments.
+I then scaffold the CRUD pages, by right-clicking on the Controllers folder, selecting Add > New Scaffolded Item, and selecting Razor Pages using Entity Framework. I then select the Comment model and the required pages (Index, Edit, Create, Details, and Delete).
+After scaffolding, I was able to access the CRUD pages for the Comment model and perform operations such as creating, editing, and deleting comments. The pages would use Entity Framework to interact with the database and display information about comments.
 
 ![image](https://user-images.githubusercontent.com/117785546/216729713-93e254cf-5198-4d83-abbb-9ccb38399516.png)
 
@@ -63,18 +63,18 @@ After scaffolding, you would be able to access the CRUD pages for the Comment mo
 
 # Comments Partial View
 
-For this story I had to create a partial view for the comments section. To display comments on the BlogPosts Index page, you would first create a partial view in the Comments View folder named "_Comments". This partial view would be responsible for displaying the comments and should have the capability to be used on other pages.
-Next, you would replace the table on the Comments Index page with a method that calls the "_Comments" partial view. The method would pass the comments to the partial view as a model and render the partial view.
+For this story I had to create a partial view for the comments section. To display comments on the BlogPosts Index page, I first created a partial view in the Comments View folder named "_Comments". This partial view would be responsible for displaying the comments and should have the capability to be used on other pages.
+Next, replace the table on the Comments Index page with a method that calls the "_Comments" partial view. The method would pass the comments to the partial view as a model and render the partial view.
 
-@Html.Partial("_Comments")
+    @Html.Partial("_Comments")
       
-With this setup, you would be able to display the comments on the BlogPosts Index page by calling the "_Comments" partial view and passing it the comments as a model. This would allow for code reusability and maintainability, as you would only need to make changes in one place (the partial view) if there are updates to the way comments are displayed.
+With this setup, I was able to display the comments on the BlogPosts Index page by calling the "_Comments" partial view and passing it the comments as a model. This would allow for code reusability and maintainability, as you would only need to make changes in one place (the partial view) if there are updates to the way comments are displayed.
       
-# Styling the Comments
+    # Styling the Comments
       
 For this story I was tasked with styling the comment section. Instead of using tables to show Comments, we want the Comments to look more like Comments you might see on other popular websites. I redesigned the comments so that the Author that wrote the Comment is displayed, the time that has passed since the comment was uploaded, the text for the Comment, the Like/Dislike (or Upvote/Downvote) buttons (and the number of Likes/Dislikes beside those buttons), and a Reply button and add a trashcan button using a font-awesome icon.
       
-   <span class="comment-author">@comment.Author</span>
+    <span class="comment-author">@comment.Author</span>
             <span class="comment-time">@comment.CommentDate.ToString("g")</span> 
 
     <span class="delete-button">
