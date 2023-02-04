@@ -91,7 +91,7 @@ In my last story I implemented the Like/Dislike or Upvote/Downvote functionality
       
 I created action methods in the Comment controller for incrementing the Like and Dislike properties.
  
-  [HttpPost]
+    [HttpPost]
         public JsonResult Like(int commentId)
         {
             Comment comment = db.Comments.Find(commentId);
@@ -103,7 +103,7 @@ I created action methods in the Comment controller for incrementing the Like and
       
  In the view, I added buttons for each action and use jQuery to bind an AJAX call to each button's click event.
       
- <button id="dislike-button-@comment.CommentId" class="btn btn-danger btn-sm dislike-button">Dislike</button>
+     <button id="dislike-button-@comment.CommentId" class="btn btn-danger btn-sm dislike-button">Dislike</button>
         <span id="dislikes-@comment.CommentId">@comment.Dislikes</span>
       
     $(".dislike-button").click(function () {
