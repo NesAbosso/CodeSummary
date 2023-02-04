@@ -70,7 +70,7 @@ Next, replace the table on the Comments Index page with a method that calls the 
       
 With this setup, I was able to display the comments on the BlogPosts Index page by calling the "_Comments" partial view and passing it the comments as a model. This would allow for code reusability and maintainability, as you would only need to make changes in one place (the partial view) if there are updates to the way comments are displayed.
       
-    # Styling the Comments
+# Styling the Comments
       
 For this story I was tasked with styling the comment section. Instead of using tables to show Comments, we want the Comments to look more like Comments you might see on other popular websites. I redesigned the comments so that the Author that wrote the Comment is displayed, the time that has passed since the comment was uploaded, the text for the Comment, the Like/Dislike (or Upvote/Downvote) buttons (and the number of Likes/Dislikes beside those buttons), and a Reply button and add a trashcan button using a font-awesome icon.
       
