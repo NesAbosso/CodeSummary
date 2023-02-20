@@ -3,7 +3,7 @@ C# Live Project Code Summary
 
 # Introduction
 
-For the last two weeks of my time at the tech academy, I worked with my peers in a team developing a full scale MVC/MVVM Web Application in C# for a local theatre/acting company's website. Working on a codebase with a team was a great learning oppertunity for fixing bugs, cleaning up code, and adding requested features. This was a large project and working in a team allowed us to accomplish all our goals by the deadline. For this project we utilized an Agile work environment in Azure DevOps and SCRUM processes, which involved daily standups and weekly code retrospectives during the two week sprint. I worked on several front-end and back-end stories that I am very proud of.
+For the last two weeks of my time at the tech academy I was an intern for Prosper IT Consulting, I worked in a team developing a full scale MVC/MVVM Web Application in C# for a local theatre/acting company's website. Working on a codebase with a team was a great learning oppertunity for fixing bugs, cleaning up code, and adding requested features. This was a large project and working in a team allowed us to accomplish all our goals by the deadline. For this project we utilized an Agile work environment in Azure DevOps and SCRUM processes, which involved daily standups and weekly code retrospectives during the two week sprint. I worked on several front-end and back-end stories that I am very proud of.
 
 Below are descriptions of the stories I worked on, along with code snippets.
 
