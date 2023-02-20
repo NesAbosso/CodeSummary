@@ -124,7 +124,7 @@ This allowed for each like and dislike button to increment by 1 when clicked.
       
 # Conclusion and Skills Learned
       
-This live project was an invaluable opportunity to really test myself, my skills and gain experience working in an Agile team environment. The skills I gained working in a collaborative development including:
+This project was an invaluable opportunity to really test myself, my skills and gain experience working in an Agile team environment. The skills I gained working in a collaborative development including:
       
     * Communication
     * Problem–Solving Skills
@@ -135,4 +135,4 @@ This live project was an invaluable opportunity to really test myself, my skills
     * Create web-based applications and test them by running the MVC Framework-based Applications
     * Code-first or db-first approach
       
-  Overall, I really relished the real world experience that this Live Project provided me and look forward to applying what I have learned in my future projects.
+  Overall, I really relished the experience that this Project provided me and look forward to applying what I have learned in my future projects.
